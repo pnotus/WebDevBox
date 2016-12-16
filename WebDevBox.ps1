@@ -10,6 +10,7 @@ cinst wireshark
 cinst firefox
 cinst googlechrome
 cinst paint.net
+cinst 7zip
 cinst visualstudiocode
 cinst tfs2015powertools
 cinst IIS-WebServerRole -source windowsfeatures
