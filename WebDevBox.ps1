@@ -10,7 +10,7 @@ cinst firefox
 cinst googlechrome
 cinst paint.net
 cinst visualstudiocode
-cinst visualstudio2015enterprise -packageParameters "--AdminFile https://gist.githubusercontent.com/pnotus/ee4569456907bb8c92ebfd7b500406be/raw/8dd86d65224777cef228b58ffa4ff75da8432534/AdminDeployment.xml"
+cinst visualstudio2015enterprise -packageParameters "--AdminFile https://raw.githubusercontent.com/pnotus/WebDevBox/master/AdminDeployment.xml"
 cinst tfs2015powertools
 cinst IIS-WebServerRole -source windowsfeatures
 cinst IIS-HttpRedirect -source windowsfeatures
