@@ -26,5 +26,3 @@ $aspnet_regiis = Join-path -Path $env:WinDir -ChildPath Microsoft.NET\Framework\
 & $aspnet_regiis -I
 cmd /c sc config aspnet_state start= auto
 cmd /c net start aspnet_state
-refreshenv
-npm install --global gulp-cli
