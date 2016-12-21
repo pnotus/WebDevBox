@@ -22,8 +22,9 @@ cinst IIS-ISAPIFilter -source windowsfeatures
 cinst IIS-ISAPIExtensions -source windowsfeatures
 cinst IIS-NetFxExtensibility -source windowsfeatures
 cinst IIS-ASPNET -source windowsfeatures
-cmd /c npm install --global gulp-cli
 $aspnet_regiis = Join-path -Path $env:WinDir -ChildPath Microsoft.NET\Framework\v4.0.30319\aspnet_regiis.exe
 & $aspnet_regiis -I
 cmd /c sc config aspnet_state start= auto
 cmd /c net start aspnet_state
+refreshenv
+npm install --global gulp-cli
