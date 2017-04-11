@@ -1,5 +1,5 @@
 Set-WindowsExplorerOptions -EnableShowHiddenFilesFoldersDrives -EnableShowProtectedOSFiles -EnableShowFileExtensions
-Set-TaskbarOptions -Size Small -Lock -Combine Never
+Set-TaskbarOptions -Size Large -Lock -Combine Never
 cinst git
 cinst nodejs
 cinst sysinternals
