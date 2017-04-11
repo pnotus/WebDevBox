@@ -23,3 +23,5 @@ cinst visualstudio2017-workload-office
 cinst visualstudio2017-workload-universal
 $nugetconfig = Join-Path $env:AppData -ChildPath NuGet\NuGet.Config
 (New-Object System.Net.WebClient).DownloadFile("https://raw.githubusercontent.com/pnotus/WebDevBox/master/NuGet.Config", $nugetconfig)
+cmd /c sc config aspnet_state start=auto
+cmd /c net start aspnet_state
