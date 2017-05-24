@@ -6,6 +6,7 @@ cinst sysinternals
 cinst notepad2
 cinst fiddler4
 cinst wireshark
+cinst burp-suite-free-edition
 cinst firefox
 cinst googlechrome
 cinst paint.net
