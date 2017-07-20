@@ -12,6 +12,7 @@ cinst googlechrome
 cinst paint.net
 cinst 7zip
 cinst kdiff3
+cinst ffmpeg
 cinst visualstudiocode
 cinst visualstudio2017community
 cinst visualstudio2017-workload-azure
