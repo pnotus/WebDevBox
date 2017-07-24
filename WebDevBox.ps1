@@ -14,6 +14,7 @@ cinst 7zip
 cinst kdiff3
 cinst ffmpeg
 cinst youtube-dl 
+cinst vlc
 cinst visualstudiocode
 cinst visualstudio2017community
 cinst visualstudio2017-workload-azure
