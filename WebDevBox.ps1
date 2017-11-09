@@ -22,3 +22,4 @@ cinst visualstudio2017-workload-netcoretools
 cinst visualstudio2017-workload-netweb
 cinst visualstudio2017-workload-node
 cinst chocolatey
+cinst virtualbox
