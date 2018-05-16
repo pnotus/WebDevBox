@@ -24,3 +24,4 @@ cinst visualstudio2017-workload-node
 cinst chocolatey
 cinst virtualbox
 cinst audacity
+cinst postman
