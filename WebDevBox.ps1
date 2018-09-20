@@ -25,3 +25,4 @@ cinst chocolatey
 cinst virtualbox
 cinst audacity
 cinst postman
+cinst anaconda3
