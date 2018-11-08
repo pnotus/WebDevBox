@@ -4,7 +4,7 @@ cinst git
 cinst nodejs
 cinst sysinternals
 cinst notepad2
-cinst fiddler4
+cinst fiddler
 cinst wireshark
 cinst firefox
 cinst googlechrome
