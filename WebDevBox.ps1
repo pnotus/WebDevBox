@@ -27,3 +27,4 @@ cinst audacity
 cinst postman
 cinst anaconda3
 cinst qbittorrent
+cinst handbrake
