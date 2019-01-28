@@ -24,6 +24,7 @@ cinst visualstudio2017-workload-node
 cinst chocolatey
 cinst virtualbox
 cinst audacity
+cinst audacity-lame
 cinst postman
 cinst anaconda3
 cinst qbittorrent
