@@ -20,6 +20,7 @@ cinst visualstudio2017-workload-manageddesktop
 cinst visualstudio2017-workload-netcoretools
 cinst visualstudio2017-workload-netweb
 cinst visualstudio2017-workload-node
+cinst sql-server-management-studio
 $nugetconfig = Join-Path $env:AppData -ChildPath NuGet\NuGet.Config
 (New-Object System.Net.WebClient).DownloadFile("https://raw.githubusercontent.com/pnotus/WebDevBox/master/NuGet.Config", $nugetconfig)
 cmd /c sc config aspnet_state start=auto
