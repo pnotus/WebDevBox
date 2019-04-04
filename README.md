@@ -13,9 +13,7 @@ Install-BoxstarterPackage -PackageName https://raw.githubusercontent.com/pnotus/
 * %ALLUSERSPROFILE%\chocolatey\lib-bad
 * %LOCALAPPDATA%\Boxstarter\boxstarter.log
 
-_<Reboot machine>_
-
-## After reeboot
+## After reboot
 ```powershell
 
 . { iwr https://raw.githubusercontent.com/pnotus/WebDevBox/master/WebDevBox2_AfterReboot.ps1 } | iex
