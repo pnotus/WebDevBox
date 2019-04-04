@@ -1,7 +1,7 @@
 # WebDevBox
 Boxstarter script to setup web development machine
 
-## Run first
+## 1. Run first
 ```powershell
 
 . { iwr -useb https://boxstarter.org/bootstrapper.ps1 } | iex; get-boxstarter -Force
@@ -9,11 +9,13 @@ Boxstarter script to setup web development machine
 Install-BoxstarterPackage -PackageName https://raw.githubusercontent.com/pnotus/WebDevBox/master/WebDevBox1.ps1 -DisableReboots
 
 ```
-## Check the following for errors
+## 2. Check the following for errors
 * %ALLUSERSPROFILE%\chocolatey\lib-bad
 * %LOCALAPPDATA%\Boxstarter\boxstarter.log
 
-## After reboot
+## 3. Reboot machine
+
+## 4. Run after reboot
 ```powershell
 
 . { iwr https://raw.githubusercontent.com/pnotus/WebDevBox/master/WebDevBox2_AfterReboot.ps1 } | iex
