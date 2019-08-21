@@ -13,13 +13,12 @@ cinst 7zip
 cinst kdiff3
 cinst postman
 cinst visualstudiocode
-cinst visualstudio2017enterprise
-cinst visualstudio2017-workload-azure
-cinst visualstudio2017-workload-data
-cinst visualstudio2017-workload-manageddesktop
-cinst visualstudio2017-workload-netcoretools
-cinst visualstudio2017-workload-netweb
-cinst visualstudio2017-workload-node
-cinst sql-server-management-studio
+cinst visualstudio2019enterprise
+cinst visualstudio2019-workload-azure
+cinst visualstudio2019-workload-data
+cinst visualstudio2019-workload-manageddesktop
+cinst visualstudio2019-workload-netcoretools
+cinst visualstudio2019-workload-netweb
+cinst visualstudio2019-workload-node
 $nugetconfig = Join-Path $env:AppData -ChildPath NuGet\NuGet.Config
 (New-Object System.Net.WebClient).DownloadFile("https://raw.githubusercontent.com/pnotus/WebDevBox/master/NuGet.Config", $nugetconfig)
