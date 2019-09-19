@@ -16,11 +16,10 @@ cinst ffmpeg
 cinst youtube-dl 
 cinst vlc
 cinst visualstudiocode
-cinst visualstudio2017community
-cinst visualstudio2017-workload-azure
-cinst visualstudio2017-workload-netcoretools
-cinst visualstudio2017-workload-netweb
-cinst visualstudio2017-workload-node
+cinst visualstudio2019community
+cinst visualstudio2019-workload-azure
+cinst visualstudio2019-workload-netcoretools
+cinst visualstudio2019-workload-netweb
 cinst chocolatey
 cinst virtualbox
 cinst audacity
