@@ -29,3 +29,4 @@ cinst anaconda3
 cinst qbittorrent
 cinst handbrake
 cinst sql-server-management-studio
+cinst windirstat
