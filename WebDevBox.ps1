@@ -30,3 +30,4 @@ cinst qbittorrent
 cinst handbrake
 cinst sql-server-management-studio
 cinst windirstat
+cinst azure-data-studio
